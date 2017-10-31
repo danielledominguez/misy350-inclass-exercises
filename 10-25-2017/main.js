@@ -28,7 +28,7 @@ let movie_list2 = [
 
 for (let i=0; i<movie_list1.length; i++) {
   for (let j = 0; j <movie_list2.length; j++) {
-    if (movie_list1[i]==movie_list2[j]) {
+    if (movie_list1[i]==movie_list2[i]) {
       console.log(movie_list1[i]);
     }
   }
